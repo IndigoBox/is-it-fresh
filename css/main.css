@@ -4,13 +4,14 @@ body {
 }
 
 header {
-	position: fixed;
-	background-color: #16C172;
-	padding: 5px;
-	padding-left: 15px;
-	left: 0px;
-	top: 0px;
-	width: 100%;
+	position: relative;
+  background-color: #16C172;
+  padding: 7px;
+  padding-left: 20px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  margin: -12px;
 }
 
 a {
@@ -19,6 +20,10 @@ a {
 
 #card {
 	box-shadow: 1px 1px 1px silver;
+}
+
+#query {
+	position:relative;
 }
 
 .indigo-link {
@@ -40,7 +45,7 @@ a {
 }
 
 .header-first {
-	font-size:1.6vw;
+	font-size:32px;
 	color:#fff;
 }
 
