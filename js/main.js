@@ -1,4 +1,8 @@
 var noProduceImageURL = 'imgs/pizza.svg';
+var notInSeasonText = 'Nope!';
+var inSeasonText = 'Yes';
+var produceFullText = '%name% are in season during %seasons%.';
+var currentSeason;
 
 // DOM Elements populated later
 var inputField;
@@ -15,7 +19,7 @@ $(document).ready(function()
 	produceStatus = $('#card .status');
 	produceSeasonText = $('#card .seasons-subtext');
 
-	console.log('Current season: ' + getSeason(new Date().getMonth() + 1));
+	currentSeason = getSeason(new Date().getMonth() + 1);
 
 	inputField.keyup(inputKeyup);
 
@@ -41,10 +45,27 @@ function inputKeyup(event)
 	if(matchingProduce.length >= 1)
 	{
 		produceCard.show();
+		currentProduce = matchingProduce[0];
+
+		// Check if the produce is in season
+		if(currentProduce.seasons.indexOf(currentSeason) > -1)
+		{
+			produceStatus.text(inSeasonText);
+			produceCard.removeClass('not-season').addClass('in-season');
+		}
+		else
+		{
+			produceStatus.text(notInSeasonText);
+			produceCard.removeClass('in-season').addClass('not-season');
+		}
+
+		// Update the text
+		produceSeasonText.text(produceFullText.replace('%name%', currentProduce.name)
+			.replace('%seasons%', arrayToSentence(currentProduce.seasons)));
 
 		// Update the image, using the noProduceImageURL if there isn't one
-		if(matchingProduce[0].img)
-			produceImage.attr('src', matchingProduce[0].img);
+		if(currentProduce.img)
+			produceImage.attr('src', currentProduce.img);
 		else
 			produceImage.attr('src', noProduceImageURL);
 	}
@@ -52,6 +73,19 @@ function inputKeyup(event)
 	{
 		produceCard.hide();
 	}
+}
+
+// Converts an array into a list in sentence form
+// using an oxford comma if needed
+function arrayToSentence (arr) {
+
+	if(arr.length > 2)
+	{
+		var last = arr.pop();
+		return arr.join(', ') + ', and ' + last;
+	}
+	else
+		return arr.join(' and ');
 }
 
 // Returns produce matching the input query
