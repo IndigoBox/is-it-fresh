@@ -1,4 +1,4 @@
-var noProduceImageURL = 'imgs/pizza.svg';
+var noProduceImageURL = 'imgs/placeholder.svg';
 var notInSeasonText = 'Nope!';
 var inSeasonText = 'Yes';
 var produceFullText = '%name% are in season during %seasons%.';
@@ -77,7 +77,9 @@ function inputKeyup(event)
 
 // Converts an array into a list in sentence form
 // using an oxford comma if needed
-function arrayToSentence (arr) {
+function arrayToSentence (arrayIn)
+{
+	var arr = arrayIn.slice(); // shallow copy array to prevent editing it
 
 	if(arr.length > 2)
 	{
@@ -99,7 +101,8 @@ function getProduce(query)
 		produceItem = produce[key];
 		produceName = produceItem.name.toLowerCase();
 
-		if(produceName.includes(query))
+		// Find produce that has a word starting with the query
+		if(produceName.startsWith(query) || produceName.indexOf(' ' + query) > -1)
 			matchingProduce.push(produceItem);
 	}
 
