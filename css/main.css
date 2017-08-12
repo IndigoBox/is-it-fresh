@@ -1,3 +1,26 @@
 body {
-	background-color: lightgrey;
+	background-color: #FFFBE5;
+	font-size: 'Segoe UI', 'Helvetica Neue', 'Open Sans', sans-serif;
+}
+
+header {
+	position:fixed;
+	background-color:
+}
+
+#card {
+	box-shadow: 1px 1px 1px silver;
+}
+
+/* Status of whether fruit/vegetable is in season, will be Yes or No, color will change based on DOM settings */
+.status {
+
+}
+
+.fruit-image {
+
+}
+
+.seasons-subtext {
+
 }
