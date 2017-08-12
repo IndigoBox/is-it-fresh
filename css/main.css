@@ -1,15 +1,29 @@
 body {
 	background-color: #FFFBE5;
-	font-size: 'Segoe UI', 'Helvetica Neue', 'Open Sans', sans-serif;
+	font-family: 'Segoe UI', 'Helvetica Neue', 'Open Sans', sans-serif;
 }
 
 header {
-	position:fixed;
-	background-color:
+	position: fixed;
+	background-color: #16C172;
+	padding: 5px;
+	padding-left: 15px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
 }
 
 #card {
 	box-shadow: 1px 1px 1px silver;
+}
+
+.indigo-link {
+	color: #fff;
+	font-weight:500;
 }
 
 /* Status of whether fruit/vegetable is in season, will be Yes or No, color will change based on DOM settings */
@@ -23,4 +37,15 @@ header {
 
 .seasons-subtext {
 
+}
+
+.header-first {
+	font-size:1.6vw;
+	color:#fff;
+}
+
+.header-second {
+	margin-left:20px;
+	font-size:1vw;
+	color:#eeeeee;
 }
