@@ -1,6 +1,8 @@
 body {
 	background-color: #FFFBE5;
 	font-family: 'Segoe UI', 'Helvetica Neue', 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	margin: -12px;
+	box-sizing: border-box;
 	box-shadow: 0px 3px 6px #9E9E9E;
 }
 
@@ -62,8 +64,13 @@ a {
 .fruit-image {
 	width: 100px;
 	height:100px;
-	float:left;
 	padding:1em 2em;
+	display: inline-block;
+}
+
+.right-col {
+	display: inline-block;
+	width: calc(100% - 180px);
 }
 
 .seasons-subtext {
@@ -134,20 +141,14 @@ a {
 	}
 
 	.fruit-image {
-		width: 100px;
 		height: 100px;
 		padding:0;
-		padding-top: 2em;
-		text-align: center;
-		width: 100%;
+		float: left;
 	}
 
 	.status {
 		text-align:center;
-	}
-
-	.seasons-subtext {
-		text-align: center
+		margin: 25px 0px;
 	}
 
 	.textbox-label-top {
@@ -169,10 +170,14 @@ a {
 		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 		width: 100%;
 		position: relative;
-		margin-top: 5em;
+		margin-top: 3em;
 		padding-bottom: 3em;
 		text-align: left;
 		min-width:0px;
+	}
+
+	.right-col {
+		display: inline;
 	}
 
 	.text-fruitVeg {
