@@ -67,11 +67,13 @@ a {
 	height:100px;
 	padding:1em 2em;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .right-col {
 	display: inline-block;
 	width: calc(100% - 180px);
+	vertical-align: middle;
 }
 
 .seasons-subtext {
