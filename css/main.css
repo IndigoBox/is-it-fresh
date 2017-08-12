@@ -94,10 +94,10 @@ a {
 }
 
 .text-area {
-	width: 250px;
-  text-align: center;
-  display: inline-table;
-  margin-right: 30px;
+	width: 4.75em;
+	text-align: center;
+	display: inline-table;
+	margin-right: 0.56818em;
 }
 
 .text-produce {
@@ -135,6 +135,8 @@ a {
 /* Mobile-specific settings */
 
 @media only screen and (max-width:700px) {
+	body { font-size: 14px; }
+
 	#query {
 		margin-top: 3em;
 	}
