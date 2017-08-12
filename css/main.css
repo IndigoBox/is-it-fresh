@@ -29,6 +29,7 @@ a {
 	margin-top:15em;
 	padding-bottom:3em;
 	text-align: left;
+	padding-right:1em;
 }
 
 #card.not-season .status { color: #7B0000; }
@@ -82,6 +83,13 @@ a {
 	color:#eeeeee;
 }
 
+.text-area {
+	width: 250px;
+  text-align: center;
+  display: inline-table;
+  margin-right: 30px;
+}
+
 .text-fruitVeg {
 	font-size: 1em;
 	border-radius: 10px 10px 10px 10px;
@@ -90,15 +98,24 @@ a {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	border-width: 0.03em;
-	width: 200px;
-	max-width: 30%;
+	width: 100%;
 	color: #007B00;
 	font-family: 'Segoe UI', 'Helvetica Neue', 'Open Sans', sans-serif;
 	margin-left: 0.1em;
 	margin-right: 0.1em;
+	padding-left: 20px;
 }
 
+.textbox-label-top {
+	display:none;
+}
 
+.textbox-label-bottom {
+	font-size: 0.4em;
+	display: grid;
+	padding-left: 30px;
+	padding-top: 10px;
+}
 
 /* Mobile-specific settings */
 
@@ -124,6 +141,19 @@ a {
 		text-align: center
 	}
 
+	.textbox-label-top {
+		font-size: 5vw;
+		padding-bottom: 0;
+		padding: 0;
+		display: table-caption;
+		padding-left: 30px;
+		padding-top: 10px;
+	}
+
+	.textbox-label-bottom {
+		display:none;
+	}
+
 	#card {
 		box-shadow: 1px 1px 1px silver;
 		background-color: #fff;
@@ -134,10 +164,10 @@ a {
 		padding-bottom: 3em;
 		text-align: left;
 		min-width:0px;
+		padding-right: 0em;
 	}
 
 	.text-fruitVeg {
 		max-width: 100000%;
-		width:50%;
 	}
 }
