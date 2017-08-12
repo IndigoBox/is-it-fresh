@@ -33,18 +33,9 @@ function inputKeyup(event)
 		produceCard.hide();
 		return;
 	}
+	else
+		matchingProduce = getProduce(query);
 
-	// Iterate through produce and check for matching names
-	var produceItem, produceName;
-	var matchingProduce = [];
-	for(key in produce)
-	{
-		produceItem = produce[key];
-		produceName = produceItem.name.toLowerCase();
-
-		if(produceName.includes(query))
-			matchingProduce.push(produceItem);
-	}
 
 	// If there's one or more matching produce items, update the card
 	if(matchingProduce.length >= 1)
@@ -61,6 +52,24 @@ function inputKeyup(event)
 	{
 		produceCard.hide();
 	}
+}
+
+// Returns produce matching the input query
+function getProduce(query)
+{
+	// Iterate through produce and check for matching names
+	var produceItem, produceName;
+	var matchingProduce = [];
+	for(key in produce)
+	{
+		produceItem = produce[key];
+		produceName = produceItem.name.toLowerCase();
+
+		if(produceName.includes(query))
+			matchingProduce.push(produceItem);
+	}
+
+	return matchingProduce;
 }
 
 // Get season based on a month number
