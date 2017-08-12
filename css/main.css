@@ -29,6 +29,7 @@ a {
 	margin-top:15em;
 	padding-bottom:3em;
 	text-align: left;
+	padding-right:1em;
 }
 
 #card.not-season .status { color: #7B0000; }
@@ -163,6 +164,7 @@ a {
 		padding-bottom: 3em;
 		text-align: left;
 		min-width:0px;
+		padding-right: 0em;
 	}
 
 	.text-fruitVeg {
