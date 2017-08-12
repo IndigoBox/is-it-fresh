@@ -5,7 +5,7 @@ var produce = {
 	'Apples': {
 		name: 'Apples',
 		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
-		img: 'apple.svg'
+		img: 'imgs/svg/apple.svg'
 	},
 	'Apricots': {
 		name: 'Apricots',
@@ -14,17 +14,17 @@ var produce = {
 	'Asparagus': {
 		name: 'Asparagus',
 		seasons: ['Spring'],
-		img: 'asparagus.svg'
+		img: 'imgs/svg/asparagus.svg'
 	},
 	'Avocado': {
 		name: 'Avocado',
 		seasons: ['Winter', 'Spring', 'Summer'],
-		img: 'avocado.svg'
+		img: 'imgs/svg/avocado.svg'
 	},
 	'Bananas': {
 		name: 'Bananas',
 		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
-		img: 'banana.svg'
+		img: 'imgs/svg/banana.svg'
 	},
 	'Beets': {
 		name: 'Beets',
@@ -33,7 +33,7 @@ var produce = {
 	'Bell Peppers': {
 		name: 'Bell Peppers',
 		seasons: ['Summer', 'Fall'],
-		img: 'pepper.svg'
+		img: 'imgs/svg/pepper.svg'
 	},
 	'Blackberries': {
 		name: 'Blackberries',
@@ -42,12 +42,12 @@ var produce = {
 	'Blueberries': {
 		name: 'Blueberries',
 		seasons: ['Summer'],
-		img: 'blueberries.svg'
+		img: 'imgs/svg/blueberries.svg'
 	},
 	'Broccoli': {
 		name: 'Broccoli',
 		seasons: ['Spring', 'Fall'],
-		img: 'broccoli.svg'
+		img: 'imgs/svg/broccoli.svg'
 	},
 	'Brussels Sprouts': {
 		name: 'Brussels Sprouts',
@@ -56,7 +56,7 @@ var produce = {
 	'Cabbage': {
 		name: 'Cabbage',
 		seasons: ['Winter', 'Spring', 'Fall'],
-		img: 'cabbage.svg'
+		img: 'imgs/svg/cabbage.svg'
 	},
 	'Cantaloupe/ Muskmelons': {
 		name: 'Cantaloupe/ Muskmelons',
@@ -65,12 +65,12 @@ var produce = {
 	'Carrots': {
 		name: 'Carrots',
 		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
-		img: 'carrot.svg'
+		img: 'imgs/svg/carrot.svg'
 	},
 	'Cauliflower': {
 		name: 'Cauliflower',
 		seasons: ['Fall'],
-		img: 'cauliflower.svg'
+		img: 'imgs/svg/cauliflower.svg'
 	},
 	'Celery': {
 		name: 'Celery',
@@ -79,7 +79,7 @@ var produce = {
 	'Cherries': {
 		name: 'Cherries',
 		seasons: ['Summer'],
-		img: 'cherries.svg'
+		img: 'imgs/svg/cherries.svg'
 	},
 	'Collard Greens': {
 		name: 'Collard Greens',
@@ -88,7 +88,7 @@ var produce = {
 	'Corn': {
 		name: 'Corn',
 		seasons: ['Summer'],
-		img: 'corn.svg'
+		img: 'imgs/svg/corn.svg'
 	},
 	'Cranberries': {
 		name: 'Cranberries',
@@ -97,17 +97,17 @@ var produce = {
 	'Cucumbers': {
 		name: 'Cucumbers',
 		seasons: ['Summer'],
-		img: 'cucumber.svg'
+		img: 'imgs/svg/cucumber.svg'
 	},
 	'Eggplant': {
 		name: 'Eggplant',
 		seasons: ['Summer'],
-		img: 'eggplant.svg'
+		img: 'imgs/svg/eggplant.svg'
 	},
 	'Garlic': {
 		name: 'Garlic',
 		seasons: ['Spring', 'Summer', 'Fall'],
-		img: 'garlic.svg'
+		img: 'imgs/svg/garlic.svg'
 	},
 	'Ginger': {
 		name: 'Ginger',
@@ -120,7 +120,7 @@ var produce = {
 	'Grapes': {
 		name: 'Grapes',
 		seasons: ['Fall'],
-		img: 'grapes.svg'
+		img: 'imgs/svg/grapes.svg'
 	},
 	'Green Beans': {
 		name: 'Green Beans',
@@ -149,12 +149,12 @@ var produce = {
 	'Lemons': {
 		name: 'Lemons',
 		seasons: ['Winter'],
-		img: 'lemon.svg'
+		img: 'imgs/svg/lemon.svg'
 	},
 	'Lettuce': {
 		name: 'Lettuce',
 		seasons: ['Spring', 'Fall'],
-		img: 'lettuce.svg'
+		img: 'imgs/svg/lettuce.svg'
 	},
 	'Lima Beans': {
 		name: 'Lima Beans',
@@ -167,7 +167,7 @@ var produce = {
 	'Mushrooms': {
 		name: 'Mushrooms',
 		seasons: ['Spring', 'Fall'],
-		img: 'mushroom.svg'
+		img: 'imgs/svg/mushroom.svg'
 	},
 	'Nectarines': {
 		name: 'Nectarines',
@@ -180,12 +180,12 @@ var produce = {
 	'Onions': {
 		name: 'Onions',
 		seasons: ['Winter', 'Spring', 'Fall'],
-		img: 'onion.svg'
+		img: 'imgs/svg/onion.svg'
 	},
 	'Oranges': {
 		name: 'Oranges',
 		seasons: ['Winter'],
-		img: 'orange.svg'
+		img: 'imgs/svg/orange.svg'
 	},
 	'Parsnips': {
 		name: 'Parsnips',
@@ -194,22 +194,22 @@ var produce = {
 	'Peaches': {
 		name: 'Peaches',
 		seasons: ['Summer'],
-		img: 'peach.svg'
+		img: 'imgs/svg/peach.svg'
 	},
 	'Pears': {
 		name: 'Pears',
 		seasons: ['Winter', 'Fall'],
-		img: 'pear.svg'
+		img: 'imgs/svg/pear.svg'
 	},
 	'Peas': {
 		name: 'Peas',
 		seasons: ['Spring', 'Fall'],
-		img: 'peas.svg'
+		img: 'imgs/svg/peas.svg'
 	},
 	'Pineapple': {
 		name: 'Pineapple',
 		seasons: ['Winter', 'Spring', 'Fall'],
-		img: 'pineapple.svg'
+		img: 'imgs/svg/pineapple.svg'
 	},
 	'Plums': {
 		name: 'Plums',
@@ -218,22 +218,22 @@ var produce = {
 	'Potatoes': {
 		name: 'Potatoes',
 		seasons: ['Winter', 'Fall'],
-		img: 'potatoes.svg'
+		img: 'imgs/svg/potatoes.svg'
 	},
 	'Pumpkins': {
 		name: 'Pumpkins',
 		seasons: ['Winter', 'Fall'],
-		img: 'pumpkin.svg'
+		img: 'imgs/svg/pumpkin.svg'
 	},
 	'Radishes': {
 		name: 'Radishes',
 		seasons: ['Spring', 'Fall'],
-		img: 'radish.svg'
+		img: 'imgs/svg/radish.svg'
 	},
 	'Raspberries': {
 		name: 'Raspberries',
 		seasons: ['Summer', 'Fall'],
-		img: 'raspberry.svg'
+		img: 'imgs/svg/raspberry.svg'
 	},
 	'Rhubarb': {
 		name: 'Rhubarb',
@@ -250,7 +250,7 @@ var produce = {
 	'Strawberries': {
 		name: 'Strawberries',
 		seasons: ['Spring', 'Summer'],
-		img: 'strawberry.svg'
+		img: 'imgs/svg/strawberry.svg'
 	},
 	'Summer Squash & Zucchini': {
 		name: 'Summer Squash & Zucchini',
@@ -271,7 +271,7 @@ var produce = {
 	'Tomatoes': {
 		name: 'Tomatoes',
 		seasons: ['Summer'],
-		img: 'tomato.svg'
+		img: 'imgs/svg/tomato.svg'
 	},
 	'Turnips': {
 		name: 'Turnips',
@@ -280,7 +280,7 @@ var produce = {
 	'Watermelon': {
 		name: 'Watermelon',
 		seasons: ['Summer'],
-		img: 'watermelon.svg'
+		img: 'imgs/svg/watermelon.svg'
 	},
 	'Winter Squash':
 	{
