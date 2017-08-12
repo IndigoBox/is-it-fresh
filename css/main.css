@@ -27,6 +27,7 @@ a {
 	position: relative;
 	margin-top:15em;
 	padding-bottom:3em;
+	text-align: left;
 }
 
 #query {
@@ -50,6 +51,7 @@ a {
 .status {
 	font-size:3.3em;
 	color:#a1a1a1;
+	padding-top: 0.33em;
 }
 
 .fruit-image {
