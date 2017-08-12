@@ -12,6 +12,7 @@ header {
   top: 0px;
   width: 100%;
   margin: -12px;
+	box-shadow: 0px 3px 6px #9E9E9E;
 }
 
 a {
@@ -101,5 +102,39 @@ a {
 @media only screen and (max-width:700px) {
 	.header-second {
 		display:none;
+	}
+
+	.fruit-image {
+		width: 100px;
+		height: 100px;
+		padding:0;
+		padding-top: 2em;
+		text-align: center;
+		width: 100%;
+	}
+
+	.status {
+		text-align:center;
+	}
+
+	.seasons-subtext {
+		text-align: center
+	}
+
+	#card {
+		box-shadow: 1px 1px 1px silver;
+		background-color: #fff;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+		width: 100%;
+		position: relative;
+		margin-top: 5em;
+		padding-bottom: 3em;
+		text-align: left;
+		min-width:0px;
+	}
+
+	.text-fruitVeg {
+		max-width: 100000%;
+		width:50%;
 	}
 }
