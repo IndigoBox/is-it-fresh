@@ -25,7 +25,14 @@ $(document).ready(function()
 // Called on keyup on the produce name input field
 function inputKeyup(event)
 {
-	var query = $(this).val().toLowerCase();
+	var query = $(this).val().toLowerCase().trim();
+
+	// if the query is blank, hide the card and return
+	if(query == "")
+	{
+		produceCard.hide();
+		return;
+	}
 
 	// Iterate through produce and check for matching names
 	var produceItem, produceName;
