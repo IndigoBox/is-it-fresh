@@ -13,7 +13,7 @@ var produceSeasonText;
 
 $(document).ready(function()
 {
-	inputField = $('.text-fruitVeg');
+	inputField = $('.text-produce');
 	produceCard = $('#card'); // the card element to update
 	produceImage = $('#card .fruit-image'); // the image in the card
 	produceStatus = $('#card .status');
@@ -22,8 +22,6 @@ $(document).ready(function()
 	currentSeason = getSeason(new Date().getMonth() + 1);
 
 	inputField.keyup(inputKeyup);
-
-	produceCard.hide();
 });
 
 // Called on keyup on the produce name input field
