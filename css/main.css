@@ -45,12 +45,12 @@ a {
 }
 
 .header-first {
-	font-size:32px;
+	font-size:1.8em;
 	color:#fff;
 }
 
 .header-second {
 	margin-left:20px;
-	font-size:1vw;
+	font-size:1em;
 	color:#eeeeee;
 }
