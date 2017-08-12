@@ -4,287 +4,287 @@
 var produce = {
 	'Apples': {
 		name: 'Apples',
-		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
+		seasons: ['winter', 'spring', 'summer', 'fall'],
 		img: 'imgs/svg/apple.svg'
 	},
 	'Apricots': {
 		name: 'Apricots',
-		seasons: ['Spring', 'Summer'],
+		seasons: ['spring', 'summer'],
 	},
 	'Asparagus': {
 		name: 'Asparagus',
-		seasons: ['Spring'],
+		seasons: ['spring'],
 		img: 'imgs/svg/asparagus.svg'
 	},
 	'Avocado': {
 		name: 'Avocado',
-		seasons: ['Winter', 'Spring', 'Summer'],
+		seasons: ['winter', 'spring', 'summer'],
 		img: 'imgs/svg/avocado.svg'
 	},
 	'Bananas': {
 		name: 'Bananas',
-		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
+		seasons: ['winter', 'spring', 'summer', 'fall'],
 		img: 'imgs/svg/banana.svg'
 	},
 	'Beets': {
 		name: 'Beets',
-		seasons: ['Winter', 'Summer', 'Fall'],
+		seasons: ['winter', 'summer', 'fall'],
 	},
 	'Bell Peppers': {
 		name: 'Bell Peppers',
-		seasons: ['Summer', 'Fall'],
+		seasons: ['summer', 'fall'],
 		img: 'imgs/svg/pepper.svg'
 	},
 	'Blackberries': {
 		name: 'Blackberries',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 	},
 	'Blueberries': {
 		name: 'Blueberries',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/blueberries.svg'
 	},
 	'Broccoli': {
 		name: 'Broccoli',
-		seasons: ['Spring', 'Fall'],
+		seasons: ['spring', 'fall'],
 		img: 'imgs/svg/broccoli.svg'
 	},
 	'Brussels Sprouts': {
 		name: 'Brussels Sprouts',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	},
 	'Cabbage': {
 		name: 'Cabbage',
-		seasons: ['Winter', 'Spring', 'Fall'],
+		seasons: ['winter', 'spring', 'fall'],
 		img: 'imgs/svg/cabbage.svg'
 	},
 	'Cantaloupe/ Muskmelons': {
 		name: 'Cantaloupe/ Muskmelons',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Carrots': {
 		name: 'Carrots',
-		seasons: ['Winter', 'Spring', 'Summer', 'Fall'],
+		seasons: ['winter', 'spring', 'summer', 'fall'],
 		img: 'imgs/svg/carrot.svg'
 	},
 	'Cauliflower': {
 		name: 'Cauliflower',
-		seasons: ['Fall'],
+		seasons: ['fall'],
 		img: 'imgs/svg/cauliflower.svg'
 	},
 	'Celery': {
 		name: 'Celery',
-		seasons: ['Winter', 'Spring', 'Summer', 'Fall']
+		seasons: ['winter', 'spring', 'summer', 'fall']
 	},
 	'Cherries': {
 		name: 'Cherries',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/cherries.svg'
 	},
 	'Collard Greens': {
 		name: 'Collard Greens',
-		seasons: ['Spring', 'Summer', 'Fall']
+		seasons: ['spring', 'summer', 'fall']
 	},
 	'Corn': {
 		name: 'Corn',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/corn.svg'
 	},
 	'Cranberries': {
 		name: 'Cranberries',
-		seasons: ['Fall']
+		seasons: ['fall']
 	},
 	'Cucumbers': {
 		name: 'Cucumbers',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/cucumber.svg'
 	},
 	'Eggplant': {
 		name: 'Eggplant',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/eggplant.svg'
 	},
 	'Garlic': {
 		name: 'Garlic',
-		seasons: ['Spring', 'Summer', 'Fall'],
+		seasons: ['spring', 'summer', 'fall'],
 		img: 'imgs/svg/garlic.svg'
 	},
 	'Ginger': {
 		name: 'Ginger',
-		seasons: ['Fall']
+		seasons: ['fall']
 	},
 	'Grapefruit': {
 		name: 'Grapefruit',
-		seasons: ['Winter']
+		seasons: ['winter']
 	},
 	'Grapes': {
 		name: 'Grapes',
-		seasons: ['Fall'],
+		seasons: ['fall'],
 		img: 'imgs/svg/grapes.svg'
 	},
 	'Green Beans': {
 		name: 'Green Beans',
-		seasons: ['Summer', 'Fall']
+		seasons: ['summer', 'fall']
 	},
 	'Greens (cooking)': {
 		name: 'Greens (cooking)',
-		seasons: ['Spring', 'Fall']
+		seasons: ['spring', 'fall']
 	},
 	'Honeydew Melon': {
 		name: 'Honeydew Melon',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Kale': {
 		name: 'Kale',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	},
 	'Kiwifruit': {
 		name: 'Kiwifruit',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Leeks': {
 		name: 'Leeks',
-		seasons: ['Winter']
+		seasons: ['winter']
 	},
 	'Lemons': {
 		name: 'Lemons',
-		seasons: ['Winter'],
+		seasons: ['winter'],
 		img: 'imgs/svg/lemon.svg'
 	},
 	'Lettuce': {
 		name: 'Lettuce',
-		seasons: ['Spring', 'Fall'],
+		seasons: ['spring', 'fall'],
 		img: 'imgs/svg/lettuce.svg'
 	},
 	'Lima Beans': {
 		name: 'Lima Beans',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Mangos': {
 		name: 'Mangos',
-		seasons: ['Summer', 'Fall']
+		seasons: ['summer', 'fall']
 	},
 	'Mushrooms': {
 		name: 'Mushrooms',
-		seasons: ['Spring', 'Fall'],
+		seasons: ['spring', 'fall'],
 		img: 'imgs/svg/mushroom.svg'
 	},
 	'Nectarines': {
 		name: 'Nectarines',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Okra': {
 		name: 'Okra',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Onions': {
 		name: 'Onions',
-		seasons: ['Winter', 'Spring', 'Fall'],
+		seasons: ['winter', 'spring', 'fall'],
 		img: 'imgs/svg/onion.svg'
 	},
 	'Oranges': {
 		name: 'Oranges',
-		seasons: ['Winter'],
+		seasons: ['winter'],
 		img: 'imgs/svg/orange.svg'
 	},
 	'Parsnips': {
 		name: 'Parsnips',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	},
 	'Peaches': {
 		name: 'Peaches',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/peach.svg'
 	},
 	'Pears': {
 		name: 'Pears',
-		seasons: ['Winter', 'Fall'],
+		seasons: ['winter', 'fall'],
 		img: 'imgs/svg/pear.svg'
 	},
 	'Peas': {
 		name: 'Peas',
-		seasons: ['Spring', 'Fall'],
+		seasons: ['spring', 'fall'],
 		img: 'imgs/svg/peas.svg'
 	},
 	'Pineapple': {
 		name: 'Pineapple',
-		seasons: ['Winter', 'Spring', 'Fall'],
+		seasons: ['winter', 'spring', 'fall'],
 		img: 'imgs/svg/pineapple.svg'
 	},
 	'Plums': {
 		name: 'Plums',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Potatoes': {
 		name: 'Potatoes',
-		seasons: ['Winter', 'Fall'],
+		seasons: ['winter', 'fall'],
 		img: 'imgs/svg/potatoes.svg'
 	},
 	'Pumpkins': {
 		name: 'Pumpkins',
-		seasons: ['Winter', 'Fall'],
+		seasons: ['winter', 'fall'],
 		img: 'imgs/svg/pumpkin.svg'
 	},
 	'Radishes': {
 		name: 'Radishes',
-		seasons: ['Spring', 'Fall'],
+		seasons: ['spring', 'fall'],
 		img: 'imgs/svg/radish.svg'
 	},
 	'Raspberries': {
 		name: 'Raspberries',
-		seasons: ['Summer', 'Fall'],
+		seasons: ['summer', 'fall'],
 		img: 'imgs/svg/raspberry.svg'
 	},
 	'Rhubarb': {
 		name: 'Rhubarb',
-		seasons: ['Spring']
+		seasons: ['spring']
 	},
 	'Rutabagas': {
 		name: 'Rutabagas',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	},
 	'Spinach': {
 		name: 'Spinach',
-		seasons: ['Spring', 'Fall']
+		seasons: ['spring', 'fall']
 	},
 	'Strawberries': {
 		name: 'Strawberries',
-		seasons: ['Spring', 'Summer'],
+		seasons: ['spring', 'summer'],
 		img: 'imgs/svg/strawberry.svg'
 	},
 	'Summer Squash & Zucchini': {
 		name: 'Summer Squash & Zucchini',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Sweet Potatoes and Yams': {
 		name: 'Sweet Potatoes and Yams',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	},
 	'Swiss Chard': {
 		name: 'Swiss Chard',
-		seasons: ['Spring', 'Fall']
+		seasons: ['spring', 'fall']
 	},
 	'Tomatillos': {
 		name: 'Tomatillos',
-		seasons: ['Summer']
+		seasons: ['summer']
 	},
 	'Tomatoes': {
 		name: 'Tomatoes',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/tomato.svg'
 	},
 	'Turnips': {
 		name: 'Turnips',
-		seasons: ['Winter', 'Spring', 'Fall']
+		seasons: ['winter', 'spring', 'fall']
 	},
 	'Watermelon': {
 		name: 'Watermelon',
-		seasons: ['Summer'],
+		seasons: ['summer'],
 		img: 'imgs/svg/watermelon.svg'
 	},
 	'Winter Squash':
 	{
 		name: 'Winter Squash',
-		seasons: ['Winter', 'Fall']
+		seasons: ['winter', 'fall']
 	}
 };
