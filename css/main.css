@@ -33,7 +33,8 @@ a {
 
 /* Status of whether fruit/vegetable is in season, will be Yes or No, color will change based on DOM settings */
 .status {
-
+	font-size:3.3em;
+	color:#a1a1a1;
 }
 
 .fruit-image {
@@ -41,7 +42,7 @@ a {
 }
 
 .seasons-subtext {
-
+	color:#424242;
 }
 
 .header-first {
