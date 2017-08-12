@@ -21,7 +21,7 @@ a {
 	text-decoration: none;
 }
 
-#card {
+.card {
 	display: none;
 	box-shadow: 1px 1px 1px silver;
 	box-sizing: border-box;
@@ -36,8 +36,8 @@ a {
 	padding-right:1em;
 }
 
-#card.not-season .status { color: #7B0000; }
-#card.in-season .status { color: #007B00; }
+.card.not-season .status { color: #7B0000; }
+.card.in-season .status { color: #007B00; }
 
 #query {
 	position:relative;
@@ -165,7 +165,7 @@ a {
 		display:none;
 	}
 
-	#card {
+	.card {
 		box-shadow: 1px 1px 1px silver;
 		background-color: #fff;
 		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);

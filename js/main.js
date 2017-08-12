@@ -14,10 +14,10 @@ var produceSeasonText;
 $(document).ready(function()
 {
 	inputField = $('.text-produce');
-	produceCard = $('#card'); // the card element to update
-	produceImage = $('#card .fruit-image'); // the image in the card
-	produceStatus = $('#card .status');
-	produceSeasonText = $('#card .seasons-subtext');
+	produceCard = $('#main-card'); // the card element to update
+	produceImage = $('#main-card .fruit-image'); // the image in the card
+	produceStatus = $('#main-card .status');
+	produceSeasonText = $('#main-card .seasons-subtext');
 
 	currentSeason = getSeason(new Date().getMonth() + 1);
 
