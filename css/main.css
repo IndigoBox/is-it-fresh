@@ -14,7 +14,6 @@ header {
 	top: 0px;
 	width: 100%;
 	box-sizing: border-box;
-	box-shadow: 0px 3px 6px #9E9E9E;
 }
 
 a {
@@ -46,7 +45,7 @@ a {
 }
 
 .indigo-link {
-	color: #fff;
+	color: rgb(125,20,230);
 	font-weight:500;
 }
 
@@ -132,6 +131,20 @@ a {
 	padding-top: 10px;
 }
 
+footer {
+	position: fixed;
+	top: calc(100% - 54px);
+	width: 100%;
+	background: #cecece;
+	text-align: center;
+	color: #4c4c4c;
+	font-size: 12px;
+	padding: 0.5em 0em;
+}
+
+footer a {
+	color: #007B00;
+}
 /* Mobile-specific settings */
 
 @media only screen and (max-width:700px) {
