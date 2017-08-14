@@ -8,8 +8,8 @@ body {
 header {
 	position: relative;
 	background-color: #16C172;
-	padding: 7px;
-	padding-left: 20px;
+	padding: 0.5em;
+	padding-left: 1em;
 	left: 0px;
 	top: 0px;
 	width: 100%;
@@ -62,8 +62,8 @@ a {
 }
 
 .fruit-image {
-	width: 100px;
-	height:100px;
+	width:  6.25em;
+	height: 6.25em;
 	padding:1em 2em;
 	display: inline-block;
 	vertical-align: middle;
@@ -148,10 +148,10 @@ footer a {
 /* Mobile-specific settings */
 
 @media only screen and (max-width:700px) {
-	body { font-size: 14px; }
+	body { font-size: 12px; }
 
 	#query {
-		margin-top: 3em;
+		margin-top: 1em;
 	}
 
 	.header-second {
@@ -159,15 +159,17 @@ footer a {
 	}
 
 	.fruit-image {
-		height: 100px;
 		padding:0;
 		float: left;
 	}
 
 	.status {
-		text-align:center;
+		display: inline-block;
 		margin: 25px 0px;
+		padding-left: 50px;
 	}
+
+	.seasons-subtext { padding: 0px; }
 
 	.textbox-label-top {
 		font-size: 5vw;
@@ -195,7 +197,7 @@ footer a {
 	}
 
 	.right-col {
-		display: inline;
+		display: initial;
 	}
 
 	.text-produce {
