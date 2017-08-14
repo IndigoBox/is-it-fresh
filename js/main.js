@@ -3,6 +3,8 @@ var notInSeasonText = 'Nope!';
 var inSeasonText = 'Yes';
 var produceFullText = '%name% are in season during %seasons%.';
 var currentSeason;
+var animations = {};
+var animationIntervalId;
 
 // DOM Elements populated later
 var inputField;
@@ -22,13 +24,60 @@ $(document).ready(function()
 	currentSeason = getSeason(new Date().getMonth() + 1);
 
 	inputField.keyup(inputKeyup);
+
+	setupAnimations();
+	animationIntervalId = setInterval(playRandomAnimation, 3000);
 });
+
+//
+function setupAnimations()
+{
+	animations['avocado'] = anime({
+		targets: '.fruit-cont #avocado',
+		rotate: 360,
+		autoplay: false,
+		duration: 1500
+	});
+	animations['lemon'] = anime({
+		targets: '.fruit-cont #lemon',
+		rotate: 360,
+		autoplay: false,
+		duration: 1500
+	});
+	animations['watermelon'] = anime({
+		targets: '.fruit-cont #watermelon',
+		rotate: 360,
+		autoplay: false,
+		duration: 1500
+	});
+	animations['tomato'] = anime({
+		targets: '.fruit-cont #tomato',
+		rotate: 360,
+		autoplay: false,
+		duration: 1500
+	});
+}
+
+function playRandomAnimation()
+{
+	var max = Object.keys(animations).length - 1;
+	var animationId = getRandomRange(0, max);
+	animations[Object.keys(animations)[animationId]].restart();
+
+	function getRandomRange(min, max) {
+		return Math.round(Math.random() * (max - min) + min);
+	}
+}
 
 // Called on keyup on the produce name input field
 function inputKeyup(event)
 {
-	$('.fruit-cont').hide();
 	var query = $(this).val().toLowerCase().trim();
+
+	if($('.fruit-cont:visible').length > 0) {
+		$('.fruit-cont').hide();
+		clearInterval(animationIntervalId);
+	}
 
 	// if the query is blank, hide the card and return
 	if(query == "")
