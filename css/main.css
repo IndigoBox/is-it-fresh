@@ -170,11 +170,11 @@ a {
 
 	.status {
 		display: inline-block;
-		margin: 25px 0px;
+		margin: 15px 0px;
 		padding-left: 50px;
 	}
 
-	.seasons-subtext { padding: 0px; }
+	.seasons-subtext { padding-top: 1em; }
 
 	.textbox-label-top {
 		font-size: 5vw;
