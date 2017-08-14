@@ -27,6 +27,7 @@ $(document).ready(function()
 // Called on keyup on the produce name input field
 function inputKeyup(event)
 {
+	$('.fruit-cont').hide();
 	var query = $(this).val().toLowerCase().trim();
 
 	// if the query is blank, hide the card and return

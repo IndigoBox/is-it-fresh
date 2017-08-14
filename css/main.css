@@ -150,8 +150,15 @@ a {
 	padding-left: 30px;
 	padding-top: 10px;
 }
-/* Mobile-specific settings */
 
+.fruit-cont { padding: 5em 0em; }
+
+.fruit-cont img {
+	width: 80px;
+	padding: 0em 3em;
+}
+
+/* Mobile-specific settings */
 @media only screen and (max-width:700px) {
 	body { font-size: 12px; }
 
@@ -208,4 +215,8 @@ a {
 	.text-produce {
 		max-width: 100000%;
 	}
+
+	#tomato, #lemon { display: none; }
+
+	.fruit-cont { padding: 12em 0em; }
 }
