@@ -28,36 +28,38 @@
 
   </head>
   <body>
-    <header>
-      <span class="header-first">
-        InSeason
-      </span>
-    </header>
-    <div id="query">
-      <div class="query-text">
-        Is
-        <div class="text-area">
-          <span class="textbox-label-top">Fruit/Vegetable</span>
-          <input type="text" class="text-produce">
-          <span class="textbox-label-bottom">Fruit/Vegetable</span>
+    <div id="main-cont">
+      <header>
+        <span class="header-first">
+          InSeason
+        </span>
+      </header>
+      <div id="query">
+        <div class="query-text">
+          Is
+          <div class="text-area">
+            <span class="textbox-label-top">Fruit/Vegetable</span>
+            <input type="text" class="text-produce">
+            <span class="textbox-label-bottom">Fruit/Vegetable</span>
+          </div>
+          in season?
         </div>
-        in season?
       </div>
+      <center>
+        <div class="card" id="main-card">
+          <img class="fruit-image" src="./imgs/svg/apple.svg">
+        </img>
+        <div class="right-col">
+          <div class="status">
+            <!-- Will be filled with text depending on input from main.js -->
+            Type a food above.
+          </div>
+          <div class="seasons-subtext">
+            We will tell you here if they work in the current season.
+          </div>
+        </div>
+      </center>
     </div>
-    <center>
-      <div class="card" id="main-card">
-        <img class="fruit-image" src="./imgs/svg/apple.svg">
-      </img>
-      <div class="right-col">
-        <div class="status">
-          <!-- Will be filled with text depending on input from main.js -->
-          Type a food above.
-        </div>
-        <div class="seasons-subtext">
-          We will tell you here if they work in the current season.
-        </div>
-      </div>
-    </center>
     <footer>
       <div>Made by <a href="http://indigobox.us" class="indigo-link">indigoBox Studios</a></div>
       <div>Information sourced from <a href="https://snaped.fns.usda.gov/seasonal-produce-guide">the USDA</a></div>

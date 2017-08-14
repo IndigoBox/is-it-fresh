@@ -5,6 +5,13 @@ body {
 	padding: 0px;
 }
 
+/* Pushes down the footer */
+#main-cont {
+	min-height: calc(100vh - 55px);
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
 header {
 	position: relative;
 	background-color: #16C172;
@@ -14,6 +21,19 @@ header {
 	top: 0px;
 	width: 100%;
 	box-sizing: border-box;
+}
+
+footer {
+	width: 100%;
+	background: #cecece;
+	text-align: center;
+	color: #4c4c4c;
+	font-size: 12px;
+	padding: 0.5em 0em;
+}
+
+footer a {
+	color: #007B00;
 }
 
 a {
@@ -129,21 +149,6 @@ a {
 	display: grid;
 	padding-left: 30px;
 	padding-top: 10px;
-}
-
-footer {
-	position: fixed;
-	top: calc(100% - 54px);
-	width: 100%;
-	background: #cecece;
-	text-align: center;
-	color: #4c4c4c;
-	font-size: 12px;
-	padding: 0.5em 0em;
-}
-
-footer a {
-	color: #007B00;
 }
 /* Mobile-specific settings */
 
