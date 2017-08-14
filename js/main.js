@@ -110,10 +110,12 @@ function getProduce(query)
 // Get season based on a month number
 // Uses the typical calendar month numbers (1-12)
 // not JS months (0-11)
-function getSeason(month) {
+function getSeason(month)
+{
 	season = '';
 
-	switch(month) {
+	switch(month)
+	{
 		case 12:
 		case 1:
 		case 2:
