@@ -165,7 +165,7 @@ a {
 }
 
 /* Mobile-specific settings */
-@media only screen and (max-width:700px) {
+@media only screen and (max-width: 800px) {
 	body { font-size: 12px; }
 
 	#query {
