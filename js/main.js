@@ -14,6 +14,8 @@ var produceImage;
 var produceStatus;
 var produceSeasonText;
 
+var fadeAnimSpeed = 100; // speed for fadeIn and fadeOut for not found produce
+
 $(document).ready(function()
 {
 	inputField = $('.text-produce');
@@ -95,7 +97,8 @@ function inputKeyup(event)
 	// if the query is blank, hide the card and return
 	if(query == "")
 	{
-		produceCard.fadeOut();
+		currentProduce = null;
+		produceCard.fadeOut(fadeAnimSpeed);
 		return;
 	}
 	else
@@ -105,6 +108,7 @@ function inputKeyup(event)
 	// If there's one or more matching produce items (that are not the currentProduce) update the card
 	if(matchingProduce.length >= 1 && currentProduce != matchingProduce[0])
 	{
+		$('#no-results').hide();
 		produceCard.show();
 		animations['card'].restart();
 		currentProduce = matchingProduce[0];
@@ -133,7 +137,10 @@ function inputKeyup(event)
 	}
 	else if(matchingProduce.length == 0) // hide the card if there's no results
 	{
-		produceCard.fadeOut();
+		currentProduce = null;
+		produceCard.fadeOut(fadeAnimSpeed, function() {
+			$('#no-results').fadeIn(fadeAnimSpeed);
+		});
 	}
 }
 

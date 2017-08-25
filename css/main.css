@@ -41,8 +41,6 @@ a {
 }
 
 .card {
-	display: none;
-	opacity: 0;
 	box-sizing: border-box;
 	background-color:#fff;
 	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -53,6 +51,22 @@ a {
 	padding:2em 1em;
 	text-align: left;
 	padding-right:1em;
+}
+
+#main-card {
+	display: none;
+	opacity: 0;
+}
+
+#no-results {
+	display: none;
+	color: #646464;
+	padding: 2em;
+}
+
+#no-results h1 {
+	color: #7B0000;
+	margin-top: 0px;
 }
 
 .card.not-season .status { color: #7B0000; }
