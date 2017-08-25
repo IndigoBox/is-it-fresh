@@ -3,6 +3,7 @@ var notInSeasonText = 'Nope!';
 var inSeasonText = 'Yes';
 var produceFullText = '%name% are in season during %seasons%.';
 var currentSeason;
+var currentProduce; // produce item being shown right now
 var animations = {};
 var animationIntervalId;
 
@@ -29,7 +30,7 @@ $(document).ready(function()
 	animationIntervalId = setInterval(playRandomAnimation, 3000);
 });
 
-//
+// Sets up all of the anime.js animations used
 function setupAnimations()
 {
 	animations['avocado'] = anime({
@@ -56,6 +57,18 @@ function setupAnimations()
 		autoplay: false,
 		duration: 1500
 	});
+
+	// Setup initial card position
+	$('#main-card').css('transform', 'translateY(200px)');
+
+	animations['card'] = anime({
+		targets: '#main-card',
+		opacity: 1,
+		translateY: 0,
+		duration: 1000,
+		autoplay: false
+	});
+
 }
 
 function playRandomAnimation()
@@ -82,17 +95,18 @@ function inputKeyup(event)
 	// if the query is blank, hide the card and return
 	if(query == "")
 	{
-		produceCard.hide();
+		produceCard.fadeOut();
 		return;
 	}
 	else
 		matchingProduce = getProduce(query);
 
 
-	// If there's one or more matching produce items, update the card
-	if(matchingProduce.length >= 1)
+	// If there's one or more matching produce items (that are not the currentProduce) update the card
+	if(matchingProduce.length >= 1 && currentProduce != matchingProduce[0])
 	{
 		produceCard.show();
+		animations['card'].restart();
 		currentProduce = matchingProduce[0];
 
 		// Check if the produce is in season
@@ -117,9 +131,9 @@ function inputKeyup(event)
 		else
 			produceImage.attr('src', noProduceImageURL);
 	}
-	else
+	else if(matchingProduce.length == 0) // hide the card if there's no results
 	{
-		produceCard.hide();
+		produceCard.fadeOut();
 	}
 }
 

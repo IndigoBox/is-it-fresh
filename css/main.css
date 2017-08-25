@@ -42,7 +42,7 @@ a {
 
 .card {
 	display: none;
-	box-shadow: 1px 1px 1px silver;
+	opacity: 0;
 	box-sizing: border-box;
 	background-color:#fff;
 	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -207,7 +207,6 @@ a {
 		background-color: #fff;
 		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 		width: 100%;
-		position: relative;
 		margin-top: 3em;
 		padding-bottom: 3em;
 		text-align: left;
