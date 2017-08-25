@@ -174,7 +174,7 @@ var produce = {
 		seasons: ['summer']
 	},
 	'Okra': {
-		name: 'Okra',
+		name: 'Okras',
 		seasons: ['summer']
 	},
 	'Onions': {
@@ -207,7 +207,7 @@ var produce = {
 		img: 'imgs/svg/peas.svg'
 	},
 	'Pineapple': {
-		name: 'Pineapple',
+		name: 'Pineapples',
 		seasons: ['winter', 'spring', 'fall'],
 		img: 'imgs/svg/pineapple.svg'
 	},
@@ -278,7 +278,7 @@ var produce = {
 		seasons: ['winter', 'spring', 'fall']
 	},
 	'Watermelon': {
-		name: 'Watermelon',
+		name: 'Watermelons',
 		seasons: ['summer'],
 		img: 'imgs/svg/watermelon.svg'
 	},
