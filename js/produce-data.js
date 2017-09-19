@@ -286,5 +286,65 @@ var produce = {
 	{
 		name: 'Winter Squash',
 		seasons: ['winter', 'fall']
-	}
+	},
+	'Tangerine':
+	{
+		name: 'Tangerines',
+		seasons: ['winter', 'fall']
+	},
+	'Lime':
+	{
+		name: 'Limes',
+		seasons: ['summer']
+	},
+	'Papaya':
+	{
+		name: 'Papayas',
+		seasons: ['summer', 'fall']
+	},
+	'Date':
+	{
+		name: 'Dates',
+		seasons: ['winter', 'fall']
+	},
+	'Persimmon':
+	{
+		name: 'Persimmons',
+		seasons: ['winter', 'fall']
+	},
+	'Fig':
+	{
+		name: 'Figs',
+		seasons: ['summer', 'fall']
+	},
+	'Pomegranate':
+	{
+		name: 'Pomegranates',
+		seasons: ['winter', 'fall']
+	},
+	'Snap Pea':
+	{
+		name: 'Snap Peas',
+		seasons: ['winter', 'spring']
+	},
+	'Chile Pepper':
+	{
+		name: 'Chile Peppers',
+		seasons: ['summer', 'fall']
+	},
+	'Passionfruit':
+	{
+		name: 'Passionfruit',
+		seasons: ['winter']
+	},
+	'Carambola / Starfruit':
+	{
+		name: 'Carambolas / Starfruits',
+		seasons: ['winter', 'summer']
+	},
+	'Dragonfruit':
+	{
+		name: 'Dragonfruits',
+		seasons: ['summer', 'fall']
+	},
 };
