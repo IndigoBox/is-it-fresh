@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="See what fruits and vegetables are in season, using information from the USDA." />
 
+    <!-- Roboto Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <!-- Twitter Card info -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Is it fresh?">
@@ -44,9 +47,17 @@
   <body>
     <div id="main-cont">
       <header>
-        <span class="header-first">
-          Is it fresh?
-        </span>
+        <div class="main-margin">
+          <span class="header-first">
+            Is it fresh?
+          </span>
+          <div class="github">
+            <a href="https://github.com/IndigoBox/is-it-fresh" target="_blank">
+              Fork On GitHub
+              <img src="imgs/github_logo.png" >
+            </a>
+          </div>
+        </div>
       </header>
       <div id="query">
         <div class="query-text">
@@ -86,9 +97,11 @@
       </center>
     </div>
     <footer>
-      <div>Made by <a href="http://indigobox.us" target="_blank" class="indigo-link">indigoBox Studios</a></div>
-      <div>Information sourced from <a href="https://snaped.fns.usda.gov/seasonal-produce-guide" target="_blank">the USDA</a></div>
-      <div>Icons designed by <a href="https://www.flaticon.com/packs/gastronomy-set" target="_blank">Madebyoliver</a> from Flaticon.</div>
+      <div class="main-margin">
+        <div>Made by <a href="http://indigobox.us" target="_blank" class="indigo-link"><span class="ib">indigo<span class="ib-purple">Box</span></span></a> Studios</div>
+        <div>Information sourced from <a href="https://snaped.fns.usda.gov/seasonal-produce-guide" target="_blank"><img class="usda" src="imgs/USDA_logo_black.png"></a></div>
+        <div>Some icons from <a href="https://www.flaticon.com/packs/gastronomy-set" target="_blank">Madebyoliver</a></div>
+      </div>
     </footer>
   </body>
 </html>

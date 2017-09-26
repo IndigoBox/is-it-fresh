@@ -7,7 +7,7 @@ body {
 
 /* Pushes down the footer */
 #main-cont {
-	min-height: calc(100vh - 55px);
+	min-height: calc(100vh - 80px);
 	padding-bottom: 20px;
 	box-sizing: border-box;
 }
@@ -15,12 +15,29 @@ body {
 header {
 	position: relative;
 	background-color: #16C172;
-	padding: 0.5em;
-	padding-left: 1em;
+	padding: 0.5em 0em;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	box-sizing: border-box;
+}
+
+.main-margin {
+	max-width: 1200px;
+	margin: auto;
+	padding: 0px 10px;
+}
+
+.github {
+	float: right;
+}
+
+.github a { color: white; }
+
+.github img {
+	width: 33px;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
 footer {
@@ -29,8 +46,20 @@ footer {
 	text-align: center;
 	color: #4c4c4c;
 	font-size: 12px;
-	padding: 0.5em 0em;
+	height: 80px;
+	padding: 15px 0px;
+	box-sizing: border-box;
 }
+
+footer .main-margin > div {
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+footer .main-margin div:first-of-type { text-align: left; }
+footer .main-margin div:last-of-type { text-align: right; }
 
 footer a {
 	color: #007B00;
@@ -38,6 +67,21 @@ footer a {
 
 a {
 	text-decoration: none;
+}
+
+footer .ib-purple {
+	color: rgb(125,20,230);
+}
+
+footer .ib {
+	color: rgb(0,0,0);
+	font-family: 'Roboto', sans-serif;
+}
+
+img.usda {
+	width: 72px;
+	vertical-align: middle;
+	margin-left: 10px;
 }
 
 .card {
@@ -76,11 +120,6 @@ a {
 	position:relative;
 	text-align:center;
 	margin-top:10em;
-}
-
-.indigo-link {
-	color: rgb(125,20,230);
-	font-weight:500;
 }
 
 .query-text {
@@ -178,9 +217,29 @@ a {
 	color: #5d5d5d;
 }
 
+/* Tablet-specific settings */
+@media only screen and (max-width: 1200px) {
+	footer .main-margin > div {
+		font-size: 1.2em;
+	}
+}
+
 /* Mobile-specific settings */
 @media only screen and (max-width: 800px) {
 	body { font-size: 12px; }
+
+	#main-cont { min-height: calc(100vh - 173px); }
+
+	.github img { width: 25px; }
+
+	footer { height: auto; }
+
+	footer .main-margin > div {
+		width: 100%;
+		padding: 10px 0px;
+		font-size: 1.2em;
+		text-align: center !important;
+	}
 
 	#query {
 		margin-top: 1em;
