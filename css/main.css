@@ -35,9 +35,18 @@ header {
 .github a { color: white; }
 
 .github img {
-	width: 33px;
+	width: 30px;
 	margin-left: 10px;
-	vertical-align: middle;
+	margin-top: 2px;
+}
+
+.github .text {
+	position: relative;
+	top: -10px;
+}
+
+.github .text, .github img {
+	display: inline-block;
 }
 
 footer {
@@ -230,7 +239,12 @@ img.usda {
 
 	#main-cont { min-height: calc(100vh - 173px); }
 
-	.github img { width: 25px; }
+	.github img {
+		width: 25px;
+		margin-top: 0px;
+	}
+
+	.github text { top: -7px; }
 
 	footer { height: auto; }
 
