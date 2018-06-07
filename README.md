@@ -1,5 +1,5 @@
-# In Season
-"Is It In Season?" tells users if a fruit or vegetable is in season, with information sourced from the USDA.
+# Is It Fresh
+"Is it fresh?" tells users if a fruit or vegetable is in season, with information sourced from the USDA.
 
 # Set Up
 This project does not require any particular software to run; all local testing can be performed in a web browser of choice.
