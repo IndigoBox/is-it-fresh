@@ -22,22 +22,26 @@ header {
 	box-sizing: border-box;
 }
 
+.indigobox {
+	float: right;
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
+.indigobox, .indigobox a { color: white; }
+
+.indigobox a { text-decoration: underline; }
+
+.ib { font-family: 'Roboto', sans-serif; }
+
+/* Disabled due to low contrast on green header */
+/* .ib-purple { color: rgb(125,20,230); } */
+
+
 .main-margin {
 	max-width: 1200px;
 	margin: auto;
 	padding: 0px 10px;
-}
-
-.github {
-	float: right;
-}
-
-.github a { color: white; }
-
-.github img {
-	width: 33px;
-	margin-left: 10px;
-	vertical-align: middle;
 }
 
 footer {
@@ -62,20 +66,15 @@ footer .main-margin div:first-of-type { text-align: left; }
 footer .main-margin div:last-of-type { text-align: right; }
 
 footer a {
-	color: #007B00;
+	color: #464646;
+	font-weight: 600;
+	text-decoration: underline;
 }
 
-a {
-	text-decoration: none;
-}
-
-footer .ib-purple {
-	color: rgb(125,20,230);
-}
-
-footer .ib {
-	color: rgb(0,0,0);
-	font-family: 'Roboto', sans-serif;
+.github img {
+	width: 33px;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
 img.usda {
@@ -227,6 +226,11 @@ img.usda {
 /* Mobile-specific settings */
 @media only screen and (max-width: 800px) {
 	body { font-size: 12px; }
+
+	.indigobox {
+		font-size: 1.25em;
+		margin-top: 0.25em;
+	}
 
 	#main-cont { min-height: calc(100vh - 173px); }
 
